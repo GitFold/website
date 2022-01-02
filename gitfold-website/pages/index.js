@@ -9,10 +9,12 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Community driven bioinformatics</p>
+        <p className={utilStyles.headingLg}>Community driven bioinformatics</p>
         <p>
-          (Currently under consturction, Launching 2022{' '}
-          <a href="https://twitter.com/GitFold">stay updated via our Twitter</a>.)
+          Launching 2022
+        </p>
+        <p>
+          stay updated via our <a href="https://twitter.com/GitFold">Twitter</a>.
         </p>
       </section>
     </Layout>
